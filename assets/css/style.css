@@ -1,0 +1,719 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: black;
+}
+#body{
+    background: black;
+}
+#navbar .nav_btn {
+    width: 150px;
+    height: 41px;
+    color: white;
+    font-weight: 600;
+    background: orange;
+    border-color: orange;
+    border-radius: 40px;
+    margin-left: 21px;
+    margin-bottom: 11px;
+    letter-spacing: 2px;
+}
+#navbar .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 17px;
+    color: grey;
+}
+#navbar{
+    background: black;
+}
+/* Hero start */
+    #hero .imgl_1{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        filter: blur(4px);
+        left: 10%;
+        bottom: 26rem;
+    }
+    #hero .imgl_2{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        filter: blur(4px);
+        left: 38%;
+    }
+    #hero .imgl_3{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        filter: blur(4px);
+        left: 31px;
+        right: 14rem;
+    }
+    #hero .welcome_button a{
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 4rem;
+        text-decoration: none;
+        border: 1px solid orangered;
+        height: 40px;
+        width: 200px;
+        display: flex;
+        color: orangered;
+        align-items: center;
+        justify-content: center;
+    }
+    #hero .welcome_wrapper{
+ 
+        color: #fff;
+        letter-spacing: 0.04em;
+        text-align: center;
+    }
+    #hero .welcome_wrapper h1{
+        text-align: left;
+        font-weight: 700;
+        margin-top: 190px;
+        font-size: 40px;
+        line-height: 70px;
+        letter-spacing: 6px;
+    }
+    #hero .welcome_wrapper span{
+        background: orangered;
+        color: black;
+    }
+    #hero .hero_backround img{
+        object-fit: contain;
+        width: 37vw !important;
+        max-height: 37vw;
+        border-radius: 20% !important;
+        background-image: linear-gradient(to right, blue, red);
+        margin-top: 20px;
+    }
+    #hero .hero_icons .imgr_1{
+        background: none;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        bottom: 32rem;
+        right: 3rem;
+    }
+    #hero .hero_icons .imgr_2{
+        background: none;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        bottom: 32rem;
+        left: 20rem;
+    }
+    #hero .hero_icons .imgr_3{
+        background: none;
+        position: relative;
+        height: 100px;
+        width: 120px;
+        right: 16rem;
+        bottom: 7rem;
+    }
+    #hero .hero_icons .imgr_4{
+        background: none;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        bottom: 7rem;
+        left: 7rem;
+    }
+    #hero{
+        background: black;
+    }
+    #hero .hero_icons .floating{
+        animation-name: floating;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+    }
+    @keyframes floating{
+        0% {
+            transform: translate(0, 0px);
+        }
+        
+        50% {
+            transform: translate(0, 10px);
+        }
+        100% {
+            transform: translate(0, 0px);
+        }
+    }
+/* Hero end */
+/* why_us start */
+#why_us .whyus_topic h2{
+    font-size: 31px;
+    line-height: 22px;
+    color: #C4C4C4;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+#why_us .whyus_topic span{
+    font-size: 31px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: orangered;
+}
+#why_us .why_us_item h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #C4C4C4;
+
+}
+#why_us .why_us_item p{
+margin-top: 16px;
+color: #C4C4C4;
+font-size: 13px;
+line-height: 18px;
+}
+#why_us .why_us_item{
+    margin-bottom: 40px;
+}
+/* why_us end */
+/* enroll start */
+#enroll {
+    padding-bottom: 30px;
+}
+#enroll .enroll_head h2{
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+    background-clip: unset;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#enroll .eitembox1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-image-source: url(../images/slide/sna-journey-border.png);
+    border-image-slice: 16 18;
+    border-image-repeat: round;
+    border-image-width: 15px 15px 0px 15px;
+    padding: 12px;
+    gap: 12px;
+    width: 16rem;
+    height: 20rem;
+    margin-left: 10px;
+}
+#enroll .eitembox2{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-image-source: url(../images/slide/sna-journey-border.png);
+    border-image-slice: 16 18;
+    border-image-repeat: round;
+    border-image-width: 0px 15px 15px 15px;
+    padding: 12px;
+    gap: 12px;
+    margin-top: 54px;
+    width: 16rem;
+    height: 20rem;
+}
+#enroll .enroll_item h3{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important
+}
+#enroll .enroll_text p{
+    color: #C4C4C4;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+#enroll .enroll_item .enroll_item_img1{
+    display: flex;
+    margin: auto;
+    height: 31px;
+    margin-bottom: 30px;
+}
+#enroll .enroll_item .enroll_item_img2{
+    display: flex;
+    margin: auto;
+    height: 31px;
+    margin-top: 30px;
+}
+
+/* enroll end */
+/* link  start*/
+    #link iframe{
+        height: 100%;
+          width: 100%;
+    }
+    #link .container{
+        height: 610px;
+    }
+    #link{
+        padding-bottom: 40px;
+    }
+/* link  end*/
+/* card start */
+    #card .card_bx .m_img{
+     height: auto;
+    width: 100%;
+    margin-top: 10px;
+    }
+    #card .card_bx{
+        margin-top: 70px;
+        height: 38rem;
+        width: 19rem;
+        box-shadow: 0 0 10px 0 white;
+        margin-left: 72px;
+    }
+    #card .card_bx:hover{
+        margin-top: 70px;
+        height: 38rem;
+        width: 19rem;
+        box-shadow: 0 0 20px 0 white;
+        margin-left: 72px;
+    }
+    #card .card_bx h3{
+        font-size: 22px;
+        color: white;
+        margin-top: 15px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    #card .card_bx p{
+        color: white;
+    }
+    #card .card_bx_content{
+        color: white;
+        text-align: left;
+        line-height: 22px;
+
+    }
+    #card .card_bx_content .button{
+        text-decoration: none;
+        color: orangered;
+        font-size: 17px;
+    
+    }
+    #card .card_bx_content .card_arrow{
+        height: 34px;
+        width: 34px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    #card .card_buttons{
+        text-align: end;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: auto;
+        align-items: center;
+    }
+    #card {
+        padding-bottom: 70px;
+
+    }
+/* card end */
+/* mentor start */
+    #mentor .mentor_head{
+        color: white;
+        font-weight: bold;
+    }
+    #mentor span{
+        color: orangered;
+    }
+    #mentor .mentor_pic{
+        width: 200px;
+        height: 240px;
+    }
+    #mentor .mentor_pic{
+        
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+    }
+    #mentor .mentor_name{
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 40px;
+
+    }
+    #mentor .mentor_details span{
+        color: orangered;
+        font-weight: 700;
+        font-size: 27px;
+    }
+   #mentor .mentor_things{
+    margin-top: 15px;
+   }
+    #mentor .mentor_intro .intro_head{
+        color: orangered;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    #mentor .mentor_intro .intro_p{
+        color: white;
+        font-size: 10px;
+    }   
+    #mentor .mentor_status{
+        text-decoration-color: #6f6f6f;
+        text-decoration-line: underline;
+        text-underline-offset: 7px;
+        color: orangered;
+    }
+    #mentor .mentor_details{
+        margin-left: 15px;
+    }
+    #mentor{
+        padding-bottom: 50px;
+    }
+/* mentor end */
+/* students start */
+#students .feedbackimg{
+    height: auto;
+    width: 48px;
+}
+#students{
+    display: flex;
+    padding-bottom: 50px;
+}
+#students .stu_img{
+    height: 110px;
+    width: auto;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
+#students .stu_topic{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 700;
+}
+#students .stu_p{
+    color: white;
+    font-size: 17px;
+}
+#students .stu_topic span{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: orangered;
+    font-weight: 700;
+}
+#students  .floating{
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes floating{
+    0% {
+        transform: translate(0, 0px);
+    }
+    
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+/* students end */
+/* learn start */
+    #learn h2{
+        margin-left: 128px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+    }
+    #learn .learn_btn{
+        background: white;
+        border-radius: 30px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        height: 40px;
+        width: 190px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    }
+    #learn .hiii{
+        background-image: linear-gradient(to right, blue, red)!important;
+       
+    }
+    #learn{
+        padding-bottom: 20px;
+    }
+/* learn end */
+/* footer start */
+#footer .footer_items {
+    display: flex;
+    justify-content: space-around;
+}
+#footer .item_list{
+    color: white;
+    list-style-type: none;
+    padding-top: 10px;
+    line-height: 40px;
+}
+#footer .line{
+    border: 1px solid white;
+    opacity: 100%;
+
+}
+#footer .item_list .product_logo{
+    width: auto;
+    display: block;
+    height: 50px;
+}
+#footer .last_items {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .last_items a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer end */
+
+
+
+/* mediaquery */
+@media screen and (min-width:320px) and (max-width:992px)  {
+    #hero .hero_icons .imgr_1{
+    background: none;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    bottom: 24rem;
+    left: 5rem;
+    }
+    #hero .hero_icons .imgr_2{
+        background: none;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        bottom: 24rem;
+        left: 26rem;
+    }
+    #hero .hero_icons .imgr_3{
+    background: none;
+    position: relative;
+    height: 110px;
+    width: 130px;
+    right: 9rem;
+    bottom: 7rem;
+    }
+    #hero .hero_icons .imgr_4{
+    background: none;
+    position: relative;
+    height: 100px;
+    width: 90px;
+    bottom: 7rem;
+    left: 11rem;
+    }
+    #hero .hero_backround img{
+        object-fit: contain;
+        width: 39vw !important;
+        max-height: 37vw;
+        border-radius: 20% !important;
+        background-image: linear-gradient(to right, blue, red);
+        margin-top: 20px;
+    }
+    #hero .imgl_1{
+       display: none;
+    }
+    #hero .imgl_2{
+        display: none;
+
+    }
+    #hero .imgl_3{
+        display: none;
+
+    }
+    #hero .welcome_button a{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 4rem;
+    text-decoration: none;
+    border: 1px solid orangered;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    color: orangered;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 41px;
+    justify-content: center;
+    }
+    #hero .welcome_wrapper{
+ 
+        color: #fff;
+        letter-spacing: 0.04em;
+        display: block;
+        align-items: center;
+    }
+    #hero .welcome_wrapper h1{
+        text-align: left;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 70px;
+        letter-spacing: 6px;
+        margin-bottom: 15px;
+        margin-top: 11px;
+
+    }
+    #hero .hero_backround{
+    display: flex;
+    justify-content: center;
+    }
+    #hero .welcome_wrapper span{
+        background: orangered;
+        color: black;
+    }
+    #enroll .eitembox1{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        border: 2px solid transparent;
+        border-image-source: url(../images/slide/sna-journey-border.png);
+        border-image-slice: 16 18;
+        border-image-repeat: round;
+        border-image-width: 15px 15px 0px 15px;
+        padding: 12px;
+        gap: 12px;
+        width: 16rem;
+        height: 20rem;
+    }
+    #enroll .eitembox2{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid transparent;
+        border-image-source: url(../images/slide/sna-journey-border.png);
+        border-image-slice: 16 18;
+        border-image-repeat: round;
+        border-image-width: 0px 15px 15px 15px;
+        padding: 12px;
+        gap: 12px;
+        margin: auto;
+        margin-top: 60px;
+        width: 16rem;
+        height: 20rem;
+    }
+
+
+    #enroll .enroll_item .enroll_item_img1{
+        display: flex;
+        margin: auto;
+        height: 31px;
+        margin-bottom: 30px;
+    }
+    #enroll .enroll_item .enroll_item_img2{
+        display: flex;
+        margin: auto;
+        height: 31px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+    #navbar .nav_btn {
+        width: 132px;
+        height: 37px;
+        color: white;
+        font-weight: 600;
+        background: orange;
+        border-color: orange;
+        border-radius: 40px;
+        letter-spacing: 2px;
+        margin-top: 14px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+    #navbar .navbar-brand{
+        display: flex;
+    }
+    #navbar .nav_logo{
+        margin-left: 156px;
+        display: flex;
+        height: 60px;
+        width: 140px;
+    }
+    #card .card_bx{
+        margin-top: 70px;
+        height: 38rem;
+        width: 19rem;
+        box-shadow: 0 0 10px 0 white;
+        display: block;
+        margin-left: 14rem;
+    }
+    #mentor .mentor_head{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #students .feedbackimg{
+   display: none;
+    }
+    #learn h2{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+    #learn .learn_btn{
+        background: white;
+        border-radius: 30px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        height: 40px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: auto;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 50px;
+    }
+    #footer .footer_items {
+        display: block;
+        text-align: center;
+    }
+    #footer .item_list .product_logo{
+        width: auto;
+        display: block;
+        height: 50px;
+        display: flex;
+        margin: auto;
+    }
+}
